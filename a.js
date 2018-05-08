@@ -10,7 +10,7 @@ function ajax(json){
 	//考虑默认值
 	json=json || {};
 	if(!json.url){
-		alert('死去吧');
+		alert('错误!');
 		return;	
 	}
 	json.type=json.type || 'get';
