@@ -1,0 +1,235 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: 0.5rem;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "微软雅黑";
+  text-size-adjust: 100%;
+}
+
+ul, li {
+  list-style: none;
+}
+
+html {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  font-size: 62.5%;
+}
+
+img, div, body, html, ul, li, a {
+  -webkit-touch-callout: none;
+}
+
+input, button {
+  outline: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #ccc;
+}
+
+input {
+  -webkit-appearance: none;
+  border: 0;
+}
+
+body, html, .wrap {
+  width: 100%;
+  height: 100%;
+  background: #f5f5f5;
+}
+
+body .header, html .header, .wrap .header {
+  width: 100%;
+  height: 1rem;
+  background: #1c1920;
+  color: #fff;
+}
+
+body .header p, html .header p, .wrap .header p {
+  font-size: .3rem;
+  float: left;
+  width: 20%;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+}
+
+body .header h5, html .header h5, .wrap .header h5 {
+  font-size: .4rem;
+  float: left;
+  width: 60%;
+  line-height: 1rem;
+  text-align: center;
+}
+
+body .main, html .main, .wrap .main {
+  width: 100%;
+}
+
+body .main .tuo, html .main .tuo, .wrap .main .tuo {
+  width: 100%;
+  height: 5rem;
+  background: #fff;
+}
+
+body .main .tuo ul, html .main .tuo ul, .wrap .main .tuo ul {
+  width: 100%;
+}
+
+body .main .tuo ul li, html .main .tuo ul li, .wrap .main .tuo ul li {
+  width: 100%;
+  height: 1rem;
+  border-bottom: 1px solid #ccc;
+  font-size: .3rem;
+  padding: .3rem 0rem;
+}
+
+body .main .tuo ul li p, html .main .tuo ul li p, .wrap .main .tuo ul li p {
+  float: left;
+  font-size: .3rem;
+  margin-left: .4rem;
+}
+
+body .main .tuo ul li span, html .main .tuo ul li span, .wrap .main .tuo ul li span {
+  font-size: .3rem;
+  float: right;
+  margin-right: .3rem;
+}
+
+body .main .tuo ul li i, html .main .tuo ul li i, .wrap .main .tuo ul li i {
+  color: #fe8fb5;
+  font-size: .3rem;
+}
+
+body .main .tuo ul .time, html .main .tuo ul .time, .wrap .main .tuo ul .time {
+  border-bottom: none;
+}
+
+body .main .tuo ul .se, html .main .tuo ul .se, .wrap .main .tuo ul .se {
+  font-size: .4rem;
+  color: #fe8fb5;
+  padding: .2rem .4rem;
+}
+
+body .main .tuo ul .se i, html .main .tuo ul .se i, .wrap .main .tuo ul .se i {
+  display: block;
+  float: left;
+  width: .1rem;
+  height: .6rem;
+  background: #fe8fb5;
+  margin-right: .2rem;
+}
+
+body .main .tuo ul .nav, html .main .tuo ul .nav, .wrap .main .tuo ul .nav {
+  width: 100%;
+  height: 1rem;
+}
+
+body .main .tuo ul .nav p, html .main .tuo ul .nav p, .wrap .main .tuo ul .nav p {
+  font-size: .3rem;
+  width: 15%;
+  float: left;
+  line-height: 1rem;
+  text-align: center;
+  color: #bdbdbd;
+}
+
+body .main .tuo ul .nav span, html .main .tuo ul .nav span, .wrap .main .tuo ul .nav span {
+  display: block;
+  width: 70%;
+  height: .4rem;
+  background: #fe8fb5;
+  float: left;
+  margin-top: .3rem;
+  border-radius: .5rem;
+}
+
+body .main .wei, html .main .wei, .wrap .main .wei {
+  width: 100%;
+  height: 1rem;
+  margin-top: .4rem;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+body .main .wei p, html .main .wei p, .wrap .main .wei p {
+  width: 100%;
+  font-size: .35rem;
+  padding: .3rem .3rem;
+}
+
+body .main .da, html .main .da, .wrap .main .da {
+  width: 100%;
+  height: 4.2rem;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+body .main .da p, html .main .da p, .wrap .main .da p {
+  width: 100%;
+  font-size: .35rem;
+  padding: .3rem .3rem;
+}
+
+body .main .lian, html .main .lian, .wrap .main .lian {
+  width: 100%;
+  height: 2rem;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+body .main .lian p, html .main .lian p, .wrap .main .lian p {
+  width: 100%;
+  font-size: .28rem;
+  padding: .3rem .3rem;
+  color: #a4a4a3;
+}
+
+body .main .tuopian, html .main .tuopian, .wrap .main .tuopian {
+  width: 100%;
+  height: 3.5rem;
+  margin-bottom: .5rem;
+}
+
+body .main .tuopian img, html .main .tuopian img, .wrap .main .tuopian img {
+  width: 30%;
+  float: left;
+  margin-left: .2rem;
+  margin-top: .3rem;
+}
+
+body .main .tuopian p, html .main .tuopian p, .wrap .main .tuopian p {
+  float: left;
+  width: 100%;
+  padding: .2rem .2rem;
+  font-size: .3rem;
+  color: #a4a4a3;
+}
+
+body .footer, html .footer, .wrap .footer {
+  width: 100%;
+  height: 2rem;
+}
+
+body .footer .fa, html .footer .fa, .wrap .footer .fa {
+  width: 90%;
+  height: 1rem;
+  background: #fe8fb5;
+  border-radius: .2rem;
+  margin-left: 5%;
+  margin-top: .5rem;
+  text-align: center;
+  color: #fff;
+  line-height: 1rem;
+}
